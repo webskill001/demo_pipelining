@@ -8,3 +8,6 @@ from django.views import View
 class Index(View):
     def get(self , request):
         return HttpResponse("Hello world!!!")
+    
+class Home(View):
+    pass
